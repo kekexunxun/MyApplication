@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/box_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="你的性别是:"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        />
+
+    <RadioGroup
+        android:id="@+id/box_rg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/box_rb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="男"/>
+
+        <RadioButton
+            android:id="@+id/box_rb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/box_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="你这两天看过的电影是什么:"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        />
+
+    <RadioGroup
+        android:id="@+id/box_rg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/box_rb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/box_rb2"/>
+
+        <RadioButton
+            android:id="@+id/box_rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/box_rb1"
+            />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/box_tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="你最近看过的书有哪些:"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        />
+
+    <CheckBox
+        android:id="@+id/box_cb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/box_cb1"/>
+
+    <CheckBox
+        android:id="@+id/box_cb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/box_cb2"/>
+
+    <CheckBox
+        android:id="@+id/box_cb3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/box_cb3"/>
+
+    <CheckBox
+        android:id="@+id/box_cb4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/box_cb4"/>
+
+    <CheckBox
+        android:id="@+id/box_cb5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/box_cb5"
+        android:textColorHint="@color/colorPrimaryDark"/>
+
+    <CheckBox
+        android:id="@+id/box_cb6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="全选"
+        android:textColorHint="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/box_tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:bufferType="editable"
+        android:text="您的性别是:"/>
+
+    <TextView
+        android:id="@+id/box_tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:bufferType="editable"
+        android:text="您最近看过的电影是:"/>
+
+    <TextView
+        android:id="@+id/box_tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:bufferType="editable"
+        android:text="您最近看过的书有:"/>
+
+</LinearLayout>

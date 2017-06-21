@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="aloha">Aloha</string>
+    <string name="tran">Please Input Some Words</string>
+    <string name="title">My Android Project</string>
+    <string name="first">Activity Change Experiment</string>
+    <string name="second">Widget Demo</string>
+    <string name="third">My Android Project</string>
+    <string name="widget_btn1">Register</string>
+    <string name="widget_btn2">School Information</string>
+    <string name="widget_btn3">WidgetBox Demo</string>
+    <string name="widget_tv1">Widget Demo</string>
+    <string name="school_tv1">PutianUniversity www.ptu.edu.cn</string>
+    <string name="school_tv2">This is the first page of PTU</string>
+    <string name="school_tv3">Here\'s nothing</string>
+    <string name="school_tv4">Yellow - Coldplay</string>
+    <string name="school_tv6">在白雪公主的故事中，原始的童话版本中，狠毒的皇后不是她的继母，而是她的生母。皇后发现了国王和白雪公主的乱伦，怒火中烧的皇后要求食用白雪公主的肝脏！另外，白雪公主并没有因为一个充满法力的吻醒来，她被带回了城堡。白雪公主死而复生的过程也相当惊人——王子太爱白雪公主了，见不到她就茶饭不思，所以走到哪儿都让仆人们抬着她的棺材跟着，终于有个仆人受不了了，打开棺材，把白雪公主举起来说：你这个死了的女孩，让我们一天遭够了罪，一边说一边在白雪公主后背一阵乱拍，那片毒苹果被拍了出来，白雪公主得以复活。</string>
+    <string name="Default">Please Input Your Words Here</string>
+    <string name="box_rb1">速度与激情</string>
+    <string name="box_rb2">狂野飙车</string>
+    <string name="box_cb1">格林童话</string>
+    <string name="box_cb2">犯罪嫌疑人X的化身</string>
+    <string name="box_cb3">解忧杂货店</string>
+    <string name="box_cb4">月亮与六便士</string>
+    <string name="box_cb5">Android开发</string>
+    <string name="zero">0</string>
+    <string name="service">Service</string>
+    <string name="ls">local service</string>
+    <string name="bind_aidl_service">Bind AIDL Service</string>
+    <string name="stop_service">Stop Service</string>
+    <string name="getnumber">getNumber</string>
+    <string name="unbind_service">Unbind_Service</string>
+    <string name="validate">请输入验证码</string>
+    <string name="sendValidateNumber">发送验证码</string>
+    <string name="receiver">get Validate Number (Broadcast Receiver)</string>
+    <string name="game">game</string>
+</resources>

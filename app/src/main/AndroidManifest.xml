@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.administrator.myapplication">
+
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".DialogActivity"/>
+        <activity android:name=".FullScreenActivity"/>
+        <activity android:name=".RegisterActivity"/>
+        <activity android:name=".FirstTaskActivity"/>
+        <activity android:name=".WidgetDemoActivity"/>
+        <activity android:name=".SchoolInformation"/>
+        <activity android:name=".BoxActivity"/>
+        <activity android:name=".ImageActivity"/>
+        <activity android:name=".LayoutActivity"/>
+        <activity android:name=".LinearLayoutActivity"/>
+        <activity android:name=".RelativeLayoutActivity"/>
+        <activity android:name=".CalculatorActivity"/>
+        <activity android:name=".BindService"/>
+        <activity android:name=".ServiceDemo"/>
+        <activity android:name=".LocalService"/>
+        <activity android:name=".getValidateNumber"/>
+        <activity android:name=".game.GameActivity"/>
+
+        <service android:name=".bindCountService"/>
+        <service
+            android:name=".RandomNumService"
+            android:enabled="true"
+            android:process=":remote">
+            <intent-filter>
+                <action android:name="com.example.administrator.remoteservice.RandomNumService"/>
+            </intent-filter>
+        </service>
+        <service android:name=".game.GameBGMService"/>
+    </application>
+
+</manifest>

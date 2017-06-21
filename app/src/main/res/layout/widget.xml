@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/widget_tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/widget_tv1"
+        /><!--文字水平居中-->
+    <Button
+        android:id="@+id/widget_btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/widget_btn1"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/widget_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/widget_btn2"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/widget_btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/widget_btn3"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/widget_btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ImageView"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/widget_btn5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Layout"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/widget_btn6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculator"
+        android:textAllCaps="false"
+        />
+
+
+</LinearLayout>
